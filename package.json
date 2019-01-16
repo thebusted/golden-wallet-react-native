@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "android": "rimraf android/app/build && react-native run-android",
-    "reset": "rimraf android/app/build && rimraf android/.gradle && rimraf node_modules && gradlew clean && npm i",
+    "reset": "rimraf android/app/build && rimraf android/.gradle && rimraf node_modules && npm i && gradlew clean",
     "test": "jest",
     "postinstall": "rn-nodeify --install stream,buffer,events,assert,crypto,vm --hack"
   },
