@@ -1,3 +1,10 @@
+# Dependencies
+Before `react-native run-android`
+
+	npm install rimraf -g
+	npm run reset
+	npm run android
+
 # Golden Wallet - Ethereum Wallet & ERC20 Tokens
 [<img src="https://raw.githubusercontent.com/goldennetwork/golden-wallet-react-native/master/screen-shots/Golden-Wallet.png">](https://itunes.apple.com/us/app/golden-best-wallet-ever/id1399824799)
 
