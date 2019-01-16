@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
+    "android": "rimraf android/app/build && react-native run-android",
+    "reset": "rimraf android/app/build && rimraf android/.gradle && rimraf node_modules && gradlew clean && npm i",
     "test": "jest",
     "postinstall": "rn-nodeify --install stream,buffer,events,assert,crypto,vm --hack"
   },
@@ -11,6 +13,7 @@
     "assert": "^1.4.1",
     "axios": "^0.18.0",
     "babel-eslint": "^8.2.3",
+    "base-x": "3.0.4",
     "bigi": "^1.4.2",
     "bignumber.js": "^7.2.1",
     "bn": "^1.0.1",
@@ -51,7 +54,7 @@
     "react-native-fcm": "^16.0.0",
     "react-native-flip-card": "^3.5.2",
     "react-native-fs": "^2.11.15",
-    "react-native-haptic-feedback": "^1.2.0",
+    "react-native-haptic-feedback": "1.2.0",
     "react-native-image-picker": "^0.26.10",
     "react-native-keyboard-aware-scroll-view": "^0.6.0",
     "react-native-keychain": "^3.0.0-rc.3",
@@ -84,7 +87,7 @@
   },
   "devDependencies": {
     "babel-jest": "23.0.1",
-    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-decorators-legacy": "1.3.4",
     "babel-preset-react-native": "4.0.0",
     "eslint": "^4.19.1",
     "eslint-config-airbnb-standard": "^1.6.6",

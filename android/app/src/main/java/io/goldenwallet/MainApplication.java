@@ -1,4 +1,4 @@
-package com.golden;
+package io.goldenwallet;
 
 import android.app.Application;
 import com.skyward.NotificationManager.NotificationManager;
@@ -48,28 +48,28 @@ public class MainApplication extends Application implements ReactApplication, Sh
         @Override
         protected List<ReactPackage> getPackages() {
             return Arrays.<ReactPackage>asList(
-                    new MainReactPackage(),
-            new RNMixpanel(),
-            new RNBranchPackage(),
-            new RNViewShotPackage(),
-            new RNSharePackage(),
-                    new RNShimmerPackage(),
-                    new FingerprintAuthPackage(),
-                    new SplashScreenReactPackage(),
-                    new RandomBytesPackage(),
-                    new KeychainPackage(),
-                    new ImagePickerPackage(),
-                    new RNReactNativeHapticFeedbackPackage(),
-                    new RNFSPackage(),
-                    new FIRMessagingPackage(),
-                    new FabricPackage(),
-                    new RNDeviceInfo(),
-                    new RNCameraPackage(),
-                    new RCTQRCodeLocalImagePackage(),
-                    new RNGoldenKeystorePackage(),
-                    new RNGoldenLoadingPackage(),
-                    new NotificationManager(),
-                    new WebViewBridgePackage()
+                new MainReactPackage(),
+                new RNMixpanel(),
+                new RNBranchPackage(),
+                new RNViewShotPackage(),
+                new RNSharePackage(),
+                new RNShimmerPackage(),
+                new FingerprintAuthPackage(),
+                new SplashScreenReactPackage(),
+                new RandomBytesPackage(),
+                new KeychainPackage(),
+                new ImagePickerPackage(),
+                new RNReactNativeHapticFeedbackPackage(),
+                new RNFSPackage(),
+                new FIRMessagingPackage(),
+                new FabricPackage(),
+                new RNDeviceInfo(),
+                new RNCameraPackage(),
+                new RCTQRCodeLocalImagePackage(),
+                new RNGoldenKeystorePackage(),
+                new RNGoldenLoadingPackage(),
+                new NotificationManager(),
+                new WebViewBridgePackage()
             );
         }
 
