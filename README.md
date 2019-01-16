@@ -1,4 +1,4 @@
-# Dependencies
+# Notice before develop for Android
 Before `react-native run-android`
 
 	npm install rimraf -g
